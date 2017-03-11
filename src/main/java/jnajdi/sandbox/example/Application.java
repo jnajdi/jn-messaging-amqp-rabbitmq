@@ -21,7 +21,15 @@ public class Application {
 	public final static String exchangeName = "jn-messaging-amqp-exchange";
 	
 	public static void main(String[] args) {
+//		ConnectionFactory connectionFactory = new CachingConnectionFactory();
+//		AmqpAdmin admin = new RabbitAdmin(connectionFactory);
+//		admin.declareQueue(new Queue("myqueue"));
+//		AmqpTemplate template = new RabbitTemplate(connectionFactory);
+//		template.convertAndSend("myqueue", "foo");
+//		String foo = (String) template.receiveAndConvert("myqueue");
+		
 		SpringApplication.run(Application.class, args);
+		
 	}
 	
 	@Bean 
@@ -54,6 +62,7 @@ public class Application {
 		
 		return container;
 	}
+	
 	
 	
 }
