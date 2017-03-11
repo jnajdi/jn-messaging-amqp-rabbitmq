@@ -1,0 +1,1258 @@
+Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T08:41:47-08:00)
+Maven home: /Users/jnajdi/Development/lib/apache-maven-3.3.9
+Java version: 1.8.0_112, vendor: Oracle Corporation
+Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.10.5", arch: "x86_64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /Users/jnajdi/Development/lib/apache-maven-3.3.9/conf/settings.xml
+[DEBUG] Reading user settings from /Users/jnajdi/.m2/settings.xml
+[DEBUG] Reading global toolchains from /Users/jnajdi/Development/lib/apache-maven-3.3.9/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/jnajdi/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/jnajdi/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/jnajdi/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:1.5.2.RELEASE: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:1.5.2.RELEASE: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jn-messaging-amqp-rabbitmq 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): [compile+runtime]
+[DEBUG] Dependencies (resolve): [compile, compile+runtime, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>
+    <exclude>**/Abstract*.java</exclude>
+  </excludes>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includes>
+    <include>**/*Tests.java</include>
+    <include>**/*Test.java</include>
+  </includes>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.6:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archive>
+    <manifest>
+      <mainClass>${start-class}</mainClass>
+      <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+    </manifest>
+  </archive>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classifier default-value="">${maven.jar.classifier}</classifier>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.springframework.boot:spring-boot-maven-plugin:1.5.2.RELEASE:repackage (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <attach default-value="true"/>
+  <excludeArtifactIds default-value="">${excludeArtifactIds}</excludeArtifactIds>
+  <excludeDevtools default-value="true"/>
+  <excludeGroupIds default-value="">${excludeGroupIds}</excludeGroupIds>
+  <executable default-value="false"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <includeSystemScope default-value="false"/>
+  <mainClass>${start-class}</mainClass>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <skip default-value="false">${skip}</skip>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=89, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=47, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9, ConflictResolver.conflictItemCount=80, DefaultDependencyCollector.collectTime=169, DefaultDependencyCollector.transformTime=13}
+[DEBUG] jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-amqp:jar:1.5.2.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot:jar:1.5.2.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:1.5.2.RELEASE:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE:compile
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.1.11:compile
+[DEBUG]                ch.qos.logback:logback-core:jar:1.1.11:compile
+[DEBUG]             org.slf4j:jcl-over-slf4j:jar:1.7.24:compile
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.24:compile
+[DEBUG]             org.slf4j:log4j-over-slf4j:jar:1.7.24:compile
+[DEBUG]          org.yaml:snakeyaml:jar:1.17:runtime
+[DEBUG]       org.springframework:spring-messaging:jar:4.3.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-beans:jar:4.3.7.RELEASE:compile
+[DEBUG]          org.springframework:spring-context:jar:4.3.7.RELEASE:compile
+[DEBUG]             org.springframework:spring-aop:jar:4.3.7.RELEASE:compile
+[DEBUG]             org.springframework:spring-expression:jar:4.3.7.RELEASE:compile
+[DEBUG]       org.springframework.amqp:spring-rabbit:jar:1.7.1.RELEASE:compile
+[DEBUG]          org.springframework:spring-web:jar:4.3.7.RELEASE:compile
+[DEBUG]          org.springframework.amqp:spring-amqp:jar:1.7.1.RELEASE:compile
+[DEBUG]          com.rabbitmq:http-client:jar:1.1.1.RELEASE:compile
+[DEBUG]             org.apache.httpcomponents:httpclient:jar:4.5.3:compile (version managed from 4.3.6 by org.springframework.boot:spring-boot-dependencies:1.5.2.RELEASE)
+[DEBUG]                org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[DEBUG]                commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9 by org.springframework.boot:spring-boot-dependencies:1.5.2.RELEASE)
+[DEBUG]             com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile (version managed from 2.8.4 by com.fasterxml.jackson:jackson-bom:2.8.7)
+[DEBUG]                com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[DEBUG]                com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
+[DEBUG]          com.rabbitmq:amqp-client:jar:4.0.2:compile
+[DEBUG]          org.springframework:spring-tx:jar:4.3.7.RELEASE:compile
+[DEBUG]          org.springframework.retry:spring-retry:jar:1.2.0.RELEASE:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:1.5.2.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.2.RELEASE:test
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.2.0:test
+[DEBUG]          net.minidev:json-smart:jar:2.2.1:test
+[DEBUG]             net.minidev:accessors-smart:jar:1.1:test
+[DEBUG]                org.ow2.asm:asm:jar:5.0.3:test
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.24:compile (version managed from 1.7.16 by org.springframework.boot:spring-boot-dependencies:1.5.2.RELEASE)
+[DEBUG]       junit:junit:jar:4.12:test
+[DEBUG]       org.assertj:assertj-core:jar:2.6.0:test
+[DEBUG]       org.mockito:mockito-core:jar:1.10.19:test
+[DEBUG]          org.objenesis:objenesis:jar:2.1:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]       org.hamcrest:hamcrest-library:jar:1.3:test
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.4.0:test
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:4.3.7.RELEASE:compile
+[DEBUG]       org.springframework:spring-test:jar:4.3.7.RELEASE:test
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=4, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=4, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=4, DefaultDependencyCollector.collectTime=15, DefaultDependencyCollector.transformTime=1}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.6.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.6.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.6.1, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.6.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]   (f) reportDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target
+[INFO] Deleting file /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[INFO] Deleting file /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/maven-status
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/generated-sources/annotations
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/generated-sources
+[INFO] Deleting file /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/jnajdi/sandbox/example/Runner.class
+[INFO] Deleting file /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/jnajdi/sandbox/example/component/Receiver.class
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/jnajdi/sandbox/example/component
+[INFO] Deleting file /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/jnajdi/sandbox/example/Application.class
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/jnajdi/sandbox/example
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/jnajdi/sandbox
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/jnajdi
+[INFO] Deleting file /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/application.properties
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[INFO] Deleting directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target
+[DEBUG] Skipping non-existing directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG] Skipping non-existing directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=59, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:0.0.1-SNAPSHOT @ /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used {spring-batch.version=3.0.7.RELEASE, env.OLDPWD=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, file.encoding.pkg=sun.io, undertow.version=1.4.11.Final, httpclient.version=4.5.3, webjars-locator.version=0.32, maven-surefire-plugin.version=2.18.1, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre, spring-ldap.version=2.3.1.RELEASE, hibernate.version=5.0.12.Final, spring-security-oauth.version=2.0.13.RELEASE, groovy.version=2.4.9, spring-social-linkedin.version=1.0.2.RELEASE, classworlds.conf=/Users/jnajdi/Development/lib/apache-maven-3.3.9/bin/m2.conf, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/endorsed, jmustache.version=1.13, env.LOGNAME=jnajdi, spring-cloud-connectors.version=1.2.3.RELEASE, env.JAVA_MAIN_CLASS_9149=org.codehaus.plexus.classworlds.launcher.Launcher, mockito.version=1.10.19, json.version=20140107, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, maven-antrun-plugin.version=1.8, bitronix.version=2.1.4, env.TERM_PROGRAM_VERSION=343.7, java.version=1.8.0_112, commons-beanutils.version=1.9.3, atomikos.version=3.9.3, exec-maven-plugin.version=1.5.0, gradle.version=2.9, jersey.version=2.25.1, maven-javadoc-plugin.version=2.10.4, jaxen.version=1.1.6, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, caffeine.version=2.3.5, couchbase-cache-client.version=2.1.0, sun-mail.version=1.5.6, wsdl4j.version=1.6.3, jedis.version=2.9.0, javax-mail.version=1.5.6, maven-failsafe-plugin.version=2.18.1, lombok.version=1.16.14, user.name=jnajdi, env.LANG=en_US.UTF-8, sun.io.unicode.encoding=UnicodeBig, sun.jnu.encoding=UTF-8, java.runtime.name=Java(TM) SE Runtime Environment, activemq.version=5.14.3, spring-security-jwt.version=1.0.7.RELEASE, spring-mobile.version=1.1.5.RELEASE, commons-dbcp.version=1.4, java.specification.name=Java Platform API Specification, log4j2.version=2.7, aspectj.version=1.8.9, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.timezone=America/Los_Angeles, janino.version=2.7.8, hazelcast-hibernate5.version=1.1.3, versions-maven-plugin.version=2.2, spring-kafka.version=1.1.3.RELEASE, path.separator=:, tomcat.version=8.5.11, env.MAVEN_CMD_LINE_ARGS= clean package --debug, postgresql.version=9.4.1212.jre7, file.encoding=UTF-8, statsd-client.version=3.1.0, env.HOME=/Users/jnajdi, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean package --debug, env.TERM_SESSION_ID=D6D1D1B2-B9CA-4FD7-B54E-7C25D3BB2340, spring-social-twitter.version=1.1.2.RELEASE, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, flyway.version=3.2.1, snakeyaml.version=1.17, thymeleaf-extras-conditionalcomments.version=2.1.2.RELEASE, maven-enforcer-plugin.version=1.4, maven-dependency-plugin.version=2.10, resource.delimiter=@, hikaricp.version=2.5.1, assertj.version=2.6.0, nekohtml.version=1.9.22, jest.version=2.0.4, java.io.tmpdir=/var/folders/7b/_5557zjn6373lzwsv6n2xvwm0000gn/T/, javax-transaction.version=1.2, hazelcast.version=3.7.5, mariadb.version=1.5.8, glassfish-el.version=3.0.0, user.language=en, line.separator=
+, crashub.version=1.3.2, thymeleaf-extras-java8time.version=2.1.0.RELEASE, javax-validation.version=1.1.0.Final, spring-security.version=4.2.2.RELEASE, spring-social.version=1.1.4.RELEASE, solr.version=5.5.4, maven-eclipse-plugin.version=2.10, gemfire.version=8.2.2, java.vm.info=mixed mode, java.vm.specification.name=Java Virtual Machine Specification, neo4j-ogm.version=2.1.1, servlet-api.version=3.1.0, project.reporting.outputEncoding=UTF-8, joda-time.version=2.9.7, hibernate-validator.version=5.3.4.Final, env.__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0, jaybird.version=2.2.12, commons-collections.version=3.2.2, liquibase.version=3.5.3, hikaricp-java6.version=2.3.13, maven-resources-plugin.version=2.7, embedded-mongo.version=1.50.5, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, querydsl.version=4.1.4, spring-integration.version=4.3.8.RELEASE, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, mongodb.version=3.4.2, commons-codec.version=1.10, antlr2.version=2.7.7, xml-apis.version=1.4.01, maven-jar-plugin.version=2.6, jms-api.version=1.1-rev-1, env.XPC_FLAGS=0x0, jetty-el.version=8.0.33, selenium.version=2.53.1, jetty.version=9.4.2.v20170220, maven-help-plugin.version=2.2, ehcache.version=2.10.3, gopherProxySet=false, mssql-jdbc.version=6.1.0.jre7, spring-integration-java-dsl.version=1.2.1.RELEASE, spring-retry.version=1.2.0.RELEASE, os.name=Mac OS X, java.specification.vendor=Oracle Corporation, ehcache3.version=3.2.1, env.TERM=xterm-256color, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, simple-json.version=1.1.1, java.library.path=/Users/jnajdi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., couchbase-client.version=2.3.7, env.PATH=/Users/jnajdi/Development/lib/apache-maven-3.3.9/bin:/Users/jnajdi/Development/lib/spring-boot-cli-1.3.5.RELEASE/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin, narayana.version=5.5.3.Final, java.class.version=52.0, env.SHLVL=1, maven.multiModuleProjectDirectory=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, freemarker.version=2.3.25-incubating, infinispan.version=8.2.6.Final, unboundid-ldapsdk.version=3.2.1, httpasyncclient.version=4.1.3, thymeleaf-extras-springsecurity4.version=2.1.3.RELEASE, spring-social-facebook.version=2.0.3.RELEASE, classmate.version=1.3.3, artemis.version=1.5.3, spring-plugin.version=1.2.0.RELEASE, spring.version=4.3.7.RELEASE, selenium-htmlunit.version=2.21, project.build.sourceEncoding=UTF-8, appengine-sdk.version=1.9.49, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, maven-shade-plugin.version=2.4.3, env.USER=jnajdi, commons-dbcp2.version=2.1.1, htmlunit.version=2.21, jboss-transaction-spi.version=7.5.1.Final, hamcrest.version=1.3, junit.version=4.12, env.TERM_PROGRAM=Apple_Terminal, maven-install-plugin.version=2.5.2, javax-cache.version=1.0.0, java.vm.specification.version=1.8, build-helper-maven-plugin.version=1.10, jtds.version=1.3.1, mysql.version=5.1.41, slf4j.version=1.7.24, awt.toolkit=sun.lwawt.macosx.LWCToolkit, sun.cpu.isalist=, env.MAVEN_PROJECTBASEDIR=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, git-commit-id-plugin.version=2.2.2, maven-compiler-plugin.version=3.1, java.ext.dirs=/Users/jnajdi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, derby.version=10.13.1.1, os.version=10.10.5, thymeleaf-layout-dialect.version=1.4.0, user.home=/Users/jnajdi, hikaricp-java7.version=2.4.11, java.vm.vendor=Oracle Corporation, jooq.version=3.9.1, logback.version=1.1.11, maven-clean-plugin.version=2.6.1, env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home, env.XPC_SERVICE_NAME=0, user.dir=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, env.PWD=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, spring-restdocs.version=1.1.2.RELEASE, jsonassert.version=1.4.0, spring-session.version=1.3.0.RELEASE, elasticsearch.version=2.4.4, sun.cpu.endian=little, httpcore.version=4.4.6, sqlite-jdbc.version=3.15.1, env.TMPDIR=/var/folders/7b/_5557zjn6373lzwsv6n2xvwm0000gn/T/, dom4j.version=1.6.1, java.vm.version=25.112-b16, org.slf4j.simpleLogger.defaultLogLevel=debug, java.class.path=/Users/jnajdi/Development/lib/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar, thymeleaf-extras-data-attribute.version=1.3, jdom2.version=2.0.6, jetty-jsp.version=2.2.0.v201112011158, javassist.version=3.21.0-GA, os.arch=x86_64, maven.build.version=Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T08:41:47-08:00), env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.8thNLJPE6c/Render, json-path.version=2.2.0, spring-hateoas.version=0.23.0.RELEASE, sendgrid.version=2.2.2, spring-data-releasetrain.version=Ingalls-SR1, spring-ws.version=2.4.0.RELEASE, sun.java.launcher=SUN_STANDARD, dropwizard-metrics.version=3.1.3, commons-pool.version=1.6, jboss-logging.version=3.3.0.Final, jstl.version=1.2, hazelcast-hibernate4.version=3.7.1, webjars-hal-browser.version=9f96c74, java.vm.specification.vendor=Oracle Corporation, maven-war-plugin.version=2.6, file.separator=/, gson.version=2.8.0, h2.version=1.4.193, cassandra-driver.version=3.1.4, jolokia.version=1.3.5, java.runtime.version=1.8.0_112-b16, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.bRjVlE0fuB/Listeners, maven-assembly-plugin.version=2.6, commons-digester.version=2.1, jackson.version=2.8.7, maven.version=3.3.9, jna.version=4.2.2, maven-source-plugin.version=2.4, user.country=US, env.SHELL=/bin/bash, maven.home=/Users/jnajdi/Development/lib/apache-maven-3.3.9, maven.compiler.target=1.8, maven-deploy-plugin.version=2.8.2, thymeleaf.version=2.1.5.RELEASE, reactor-spring.version=2.0.7.RELEASE, spring-loaded.version=1.2.6.RELEASE, commons-pool2.version=2.4.2, spock.version=1.0-groovy-2.4, reactor.version=2.0.8.RELEASE, maven-site-plugin.version=3.5.1, maven-invoker-plugin.version=1.10, java.vendor=Oracle Corporation, spring-amqp.version=1.7.1.RELEASE, maven.compiler.source=1.8, hsqldb.version=2.3.3, java.specification.version=1.8, sun.arch.data.model=64}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] file application.properties has a filtered file extension
+[DEBUG] filtering /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/resources/application.properties to /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/application.properties
+[DEBUG] resource with targetPath null
+directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=113, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq
+[DEBUG]   (f) buildDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target
+[DEBUG]   (f) classpathElements = [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar, /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar, /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar, /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar, /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar, /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar, /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar, /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar, /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar, /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar, /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar, /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar, /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]   (f) projectArtifact = jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/java]
+[DEBUG] Classpath: [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar
+ /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar
+ /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+ /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+ /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+ /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar
+ /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar
+ /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar
+ /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar]
+[DEBUG] Output directory: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/java/jnajdi/sandbox/example/Application.java
+[DEBUG] Stale source detected: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/java/jnajdi/sandbox/example/component/Receiver.java
+[DEBUG] Stale source detected: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/java/jnajdi/sandbox/example/Runner.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/java
+[DEBUG] Command line options:
+[DEBUG] -d /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes -classpath /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar:/Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar:/Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar:/Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar: -sourcepath /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/main/java: -s /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/generated-sources/annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 3 source files to /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:0.0.1-SNAPSHOT @ /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used {spring-batch.version=3.0.7.RELEASE, env.OLDPWD=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, file.encoding.pkg=sun.io, undertow.version=1.4.11.Final, httpclient.version=4.5.3, webjars-locator.version=0.32, maven-surefire-plugin.version=2.18.1, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre, spring-ldap.version=2.3.1.RELEASE, hibernate.version=5.0.12.Final, spring-security-oauth.version=2.0.13.RELEASE, groovy.version=2.4.9, spring-social-linkedin.version=1.0.2.RELEASE, classworlds.conf=/Users/jnajdi/Development/lib/apache-maven-3.3.9/bin/m2.conf, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/endorsed, jmustache.version=1.13, env.LOGNAME=jnajdi, spring-cloud-connectors.version=1.2.3.RELEASE, env.JAVA_MAIN_CLASS_9149=org.codehaus.plexus.classworlds.launcher.Launcher, mockito.version=1.10.19, json.version=20140107, sun.os.patch.level=unknown, java.vendor.url=http://java.oracle.com/, maven-antrun-plugin.version=1.8, bitronix.version=2.1.4, env.TERM_PROGRAM_VERSION=343.7, java.version=1.8.0_112, commons-beanutils.version=1.9.3, atomikos.version=3.9.3, exec-maven-plugin.version=1.5.0, gradle.version=2.9, jersey.version=2.25.1, maven-javadoc-plugin.version=2.10.4, jaxen.version=1.1.6, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, caffeine.version=2.3.5, couchbase-cache-client.version=2.1.0, sun-mail.version=1.5.6, wsdl4j.version=1.6.3, jedis.version=2.9.0, javax-mail.version=1.5.6, maven-failsafe-plugin.version=2.18.1, lombok.version=1.16.14, user.name=jnajdi, env.LANG=en_US.UTF-8, sun.io.unicode.encoding=UnicodeBig, sun.jnu.encoding=UTF-8, java.runtime.name=Java(TM) SE Runtime Environment, activemq.version=5.14.3, spring-security-jwt.version=1.0.7.RELEASE, spring-mobile.version=1.1.5.RELEASE, commons-dbcp.version=1.4, java.specification.name=Java Platform API Specification, log4j2.version=2.7, aspectj.version=1.8.9, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.timezone=America/Los_Angeles, janino.version=2.7.8, hazelcast-hibernate5.version=1.1.3, versions-maven-plugin.version=2.2, spring-kafka.version=1.1.3.RELEASE, path.separator=:, tomcat.version=8.5.11, env.MAVEN_CMD_LINE_ARGS= clean package --debug, postgresql.version=9.4.1212.jre7, file.encoding=UTF-8, statsd-client.version=3.1.0, env.HOME=/Users/jnajdi, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean package --debug, env.TERM_SESSION_ID=D6D1D1B2-B9CA-4FD7-B54E-7C25D3BB2340, spring-social-twitter.version=1.1.2.RELEASE, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, flyway.version=3.2.1, snakeyaml.version=1.17, thymeleaf-extras-conditionalcomments.version=2.1.2.RELEASE, maven-enforcer-plugin.version=1.4, maven-dependency-plugin.version=2.10, resource.delimiter=@, hikaricp.version=2.5.1, assertj.version=2.6.0, nekohtml.version=1.9.22, jest.version=2.0.4, java.io.tmpdir=/var/folders/7b/_5557zjn6373lzwsv6n2xvwm0000gn/T/, javax-transaction.version=1.2, hazelcast.version=3.7.5, mariadb.version=1.5.8, glassfish-el.version=3.0.0, user.language=en, line.separator=
+, crashub.version=1.3.2, thymeleaf-extras-java8time.version=2.1.0.RELEASE, javax-validation.version=1.1.0.Final, spring-security.version=4.2.2.RELEASE, spring-social.version=1.1.4.RELEASE, solr.version=5.5.4, maven-eclipse-plugin.version=2.10, gemfire.version=8.2.2, java.vm.info=mixed mode, java.vm.specification.name=Java Virtual Machine Specification, neo4j-ogm.version=2.1.1, servlet-api.version=3.1.0, project.reporting.outputEncoding=UTF-8, joda-time.version=2.9.7, hibernate-validator.version=5.3.4.Final, env.__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0, jaybird.version=2.2.12, commons-collections.version=3.2.2, liquibase.version=3.5.3, hikaricp-java6.version=2.3.13, maven-resources-plugin.version=2.7, embedded-mongo.version=1.50.5, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, querydsl.version=4.1.4, spring-integration.version=4.3.8.RELEASE, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, mongodb.version=3.4.2, commons-codec.version=1.10, antlr2.version=2.7.7, xml-apis.version=1.4.01, maven-jar-plugin.version=2.6, jms-api.version=1.1-rev-1, env.XPC_FLAGS=0x0, jetty-el.version=8.0.33, selenium.version=2.53.1, jetty.version=9.4.2.v20170220, maven-help-plugin.version=2.2, ehcache.version=2.10.3, gopherProxySet=false, mssql-jdbc.version=6.1.0.jre7, spring-integration-java-dsl.version=1.2.1.RELEASE, spring-retry.version=1.2.0.RELEASE, os.name=Mac OS X, java.specification.vendor=Oracle Corporation, ehcache3.version=3.2.1, env.TERM=xterm-256color, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, simple-json.version=1.1.1, java.library.path=/Users/jnajdi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., couchbase-client.version=2.3.7, env.PATH=/Users/jnajdi/Development/lib/apache-maven-3.3.9/bin:/Users/jnajdi/Development/lib/spring-boot-cli-1.3.5.RELEASE/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin, narayana.version=5.5.3.Final, java.class.version=52.0, env.SHLVL=1, maven.multiModuleProjectDirectory=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, freemarker.version=2.3.25-incubating, infinispan.version=8.2.6.Final, unboundid-ldapsdk.version=3.2.1, httpasyncclient.version=4.1.3, thymeleaf-extras-springsecurity4.version=2.1.3.RELEASE, spring-social-facebook.version=2.0.3.RELEASE, classmate.version=1.3.3, artemis.version=1.5.3, spring-plugin.version=1.2.0.RELEASE, spring.version=4.3.7.RELEASE, selenium-htmlunit.version=2.21, project.build.sourceEncoding=UTF-8, appengine-sdk.version=1.9.49, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, maven-shade-plugin.version=2.4.3, env.USER=jnajdi, commons-dbcp2.version=2.1.1, htmlunit.version=2.21, jboss-transaction-spi.version=7.5.1.Final, hamcrest.version=1.3, junit.version=4.12, env.TERM_PROGRAM=Apple_Terminal, maven-install-plugin.version=2.5.2, javax-cache.version=1.0.0, java.vm.specification.version=1.8, build-helper-maven-plugin.version=1.10, jtds.version=1.3.1, mysql.version=5.1.41, slf4j.version=1.7.24, awt.toolkit=sun.lwawt.macosx.LWCToolkit, sun.cpu.isalist=, env.MAVEN_PROJECTBASEDIR=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, git-commit-id-plugin.version=2.2.2, maven-compiler-plugin.version=3.1, java.ext.dirs=/Users/jnajdi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, derby.version=10.13.1.1, os.version=10.10.5, thymeleaf-layout-dialect.version=1.4.0, user.home=/Users/jnajdi, hikaricp-java7.version=2.4.11, java.vm.vendor=Oracle Corporation, jooq.version=3.9.1, logback.version=1.1.11, maven-clean-plugin.version=2.6.1, env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home, env.XPC_SERVICE_NAME=0, user.dir=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, env.PWD=/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq, spring-restdocs.version=1.1.2.RELEASE, jsonassert.version=1.4.0, spring-session.version=1.3.0.RELEASE, elasticsearch.version=2.4.4, sun.cpu.endian=little, httpcore.version=4.4.6, sqlite-jdbc.version=3.15.1, env.TMPDIR=/var/folders/7b/_5557zjn6373lzwsv6n2xvwm0000gn/T/, dom4j.version=1.6.1, java.vm.version=25.112-b16, org.slf4j.simpleLogger.defaultLogLevel=debug, java.class.path=/Users/jnajdi/Development/lib/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar, thymeleaf-extras-data-attribute.version=1.3, jdom2.version=2.0.6, jetty-jsp.version=2.2.0.v201112011158, javassist.version=3.21.0-GA, os.arch=x86_64, maven.build.version=Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T08:41:47-08:00), env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.8thNLJPE6c/Render, json-path.version=2.2.0, spring-hateoas.version=0.23.0.RELEASE, sendgrid.version=2.2.2, spring-data-releasetrain.version=Ingalls-SR1, spring-ws.version=2.4.0.RELEASE, sun.java.launcher=SUN_STANDARD, dropwizard-metrics.version=3.1.3, commons-pool.version=1.6, jboss-logging.version=3.3.0.Final, jstl.version=1.2, hazelcast-hibernate4.version=3.7.1, webjars-hal-browser.version=9f96c74, java.vm.specification.vendor=Oracle Corporation, maven-war-plugin.version=2.6, file.separator=/, gson.version=2.8.0, h2.version=1.4.193, cassandra-driver.version=3.1.4, jolokia.version=1.3.5, java.runtime.version=1.8.0_112-b16, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.bRjVlE0fuB/Listeners, maven-assembly-plugin.version=2.6, commons-digester.version=2.1, jackson.version=2.8.7, maven.version=3.3.9, jna.version=4.2.2, maven-source-plugin.version=2.4, user.country=US, env.SHELL=/bin/bash, maven.home=/Users/jnajdi/Development/lib/apache-maven-3.3.9, maven.compiler.target=1.8, maven-deploy-plugin.version=2.8.2, thymeleaf.version=2.1.5.RELEASE, reactor-spring.version=2.0.7.RELEASE, spring-loaded.version=1.2.6.RELEASE, commons-pool2.version=2.4.2, spock.version=1.0-groovy-2.4, reactor.version=2.0.8.RELEASE, maven-site-plugin.version=3.5.1, maven-invoker-plugin.version=1.10, java.vendor=Oracle Corporation, spring-amqp.version=1.7.1.RELEASE, maven.compiler.source=1.8, hsqldb.version=2.3.3, java.specification.version=1.8, sun.arch.data.model=64}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq
+[DEBUG]   (f) buildDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target
+[DEBUG]   (f) classpathElements = [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes, /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar, /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar, /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar, /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar, /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar, /Users/jnajdi/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar, /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar, /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar, /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar, /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar, /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar, /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar, /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar, /Users/jnajdi/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar, /Users/jnajdi/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar, /Users/jnajdi/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar, /Users/jnajdi/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar, /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar, /Users/jnajdi/.m2/repository/junit/junit/4.12/junit-4.12.jar, /Users/jnajdi/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar, /Users/jnajdi/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, /Users/jnajdi/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, /Users/jnajdi/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar, /Users/jnajdi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar, /Users/jnajdi/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/java]
+[DEBUG] Classpath: [/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+ /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar
+ /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar
+ /Users/jnajdi/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar
+ /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+ /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+ /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+ /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar
+ /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar
+ /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar
+ /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar
+ /Users/jnajdi/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar
+ /Users/jnajdi/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar
+ /Users/jnajdi/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar
+ /Users/jnajdi/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+ /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar
+ /Users/jnajdi/.m2/repository/junit/junit/4.12/junit-4.12.jar
+ /Users/jnajdi/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar
+ /Users/jnajdi/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar
+ /Users/jnajdi/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar
+ /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+ /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+ /Users/jnajdi/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar
+ /Users/jnajdi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar
+ /Users/jnajdi/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar]
+[DEBUG] Output directory: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/java/jnajdi/sandbox/example/ApplicationTests.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG]  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/junit/junit/4.12/junit-4.12.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar
+[DEBUG]  /Users/jnajdi/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/java
+[DEBUG] Command line options:
+[DEBUG] -d /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes -classpath /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes:/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/Users/jnajdi/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar:/Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar:/Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:/Users/jnajdi/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/Users/jnajdi/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/Users/jnajdi/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/Users/jnajdi/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/Users/jnajdi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/jnajdi/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/Users/jnajdi/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/Users/jnajdi/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/jnajdi/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/Users/jnajdi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar:/Users/jnajdi/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar: -sourcepath /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/java: -s /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/generated-test-sources/test-annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=112, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=33, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=79, DefaultDependencyCollector.collectTime=29, DefaultDependencyCollector.transformTime=3}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.18.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.18.1:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.18.1:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:3.8.1:test
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]          org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]             org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    org.apache.maven.surefire:surefire-api:jar:2.18.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.18.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.18.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.18.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.18.1
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.18.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.18.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.18.1
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.18.1, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) excludes = [**/Abstract*.java]
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) includes = [**/*Tests.java, **/*Test.java]
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///Users/jnajdi/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.18.1:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.18.1:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.18.1:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.15:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.2.1:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile, org.slf4j:slf4j-jdk14=org.slf4j:slf4j-jdk14:jar:1.5.6:runtime, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.5.6:runtime, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.2.1:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.sonatype.plexus:plexus-sec-dispatcher=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher=org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.18.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.2.1:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.18.1:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {org.springframework.boot:spring-boot-starter-amqp=org.springframework.boot:spring-boot-starter-amqp:jar:1.5.2.RELEASE:compile, org.springframework.boot:spring-boot-starter=org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE:compile, org.springframework.boot:spring-boot=org.springframework.boot:spring-boot:jar:1.5.2.RELEASE:compile, org.springframework.boot:spring-boot-autoconfigure=org.springframework.boot:spring-boot-autoconfigure:jar:1.5.2.RELEASE:compile, org.springframework.boot:spring-boot-starter-logging=org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE:compile, ch.qos.logback:logback-classic=ch.qos.logback:logback-classic:jar:1.1.11:compile, ch.qos.logback:logback-core=ch.qos.logback:logback-core:jar:1.1.11:compile, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.7.24:compile, org.slf4j:jul-to-slf4j=org.slf4j:jul-to-slf4j:jar:1.7.24:compile, org.slf4j:log4j-over-slf4j=org.slf4j:log4j-over-slf4j:jar:1.7.24:compile, org.yaml:snakeyaml=org.yaml:snakeyaml:jar:1.17:runtime, org.springframework:spring-messaging=org.springframework:spring-messaging:jar:4.3.7.RELEASE:compile, org.springframework:spring-beans=org.springframework:spring-beans:jar:4.3.7.RELEASE:compile, org.springframework:spring-context=org.springframework:spring-context:jar:4.3.7.RELEASE:compile, org.springframework:spring-aop=org.springframework:spring-aop:jar:4.3.7.RELEASE:compile, org.springframework:spring-expression=org.springframework:spring-expression:jar:4.3.7.RELEASE:compile, org.springframework.amqp:spring-rabbit=org.springframework.amqp:spring-rabbit:jar:1.7.1.RELEASE:compile, org.springframework:spring-web=org.springframework:spring-web:jar:4.3.7.RELEASE:compile, org.springframework.amqp:spring-amqp=org.springframework.amqp:spring-amqp:jar:1.7.1.RELEASE:compile, com.rabbitmq:http-client=com.rabbitmq:http-client:jar:1.1.1.RELEASE:compile, org.apache.httpcomponents:httpclient=org.apache.httpcomponents:httpclient:jar:4.5.3:compile, org.apache.httpcomponents:httpcore=org.apache.httpcomponents:httpcore:jar:4.4.6:compile, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.10:compile, com.fasterxml.jackson.core:jackson-databind=com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile, com.fasterxml.jackson.core:jackson-annotations=com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile, com.fasterxml.jackson.core:jackson-core=com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile, com.rabbitmq:amqp-client=com.rabbitmq:amqp-client:jar:4.0.2:compile, org.springframework:spring-tx=org.springframework:spring-tx:jar:4.3.7.RELEASE:compile, org.springframework.retry:spring-retry=org.springframework.retry:spring-retry:jar:1.2.0.RELEASE:compile, org.springframework.boot:spring-boot-starter-test=org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE:test, org.springframework.boot:spring-boot-test=org.springframework.boot:spring-boot-test:jar:1.5.2.RELEASE:test, org.springframework.boot:spring-boot-test-autoconfigure=org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.2.RELEASE:test, com.jayway.jsonpath:json-path=com.jayway.jsonpath:json-path:jar:2.2.0:test, net.minidev:json-smart=net.minidev:json-smart:jar:2.2.1:test, net.minidev:accessors-smart=net.minidev:accessors-smart:jar:1.1:test, org.ow2.asm:asm=org.ow2.asm:asm:jar:5.0.3:test, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.7.24:compile, junit:junit=junit:junit:jar:4.12:test, org.assertj:assertj-core=org.assertj:assertj-core:jar:2.6.0:test, org.mockito:mockito-core=org.mockito:mockito-core:jar:1.10.19:test, org.objenesis:objenesis=org.objenesis:objenesis:jar:2.1:test, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:test, org.hamcrest:hamcrest-library=org.hamcrest:hamcrest-library:jar:1.3:test, org.skyscreamer:jsonassert=org.skyscreamer:jsonassert:jar:1.4.0:test, com.vaadin.external.google:android-json=com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test, org.springframework:spring-core=org.springframework:spring-core:jar:4.3.7.RELEASE:compile, org.springframework:spring-test=org.springframework:spring-test:jar:4.3.7.RELEASE:test}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) testClassesDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq
+[DEBUG]   (s) project = MavenProject: jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:0.0.1-SNAPSHOT @ /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG] -- end configuration --
+[INFO] Surefire report directory: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/surefire-reports
+[DEBUG] Setting system property [user.dir]=[/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq]
+[DEBUG] Setting system property [localRepository]=[/Users/jnajdi/.m2/repository]
+[DEBUG] Setting system property [basedir]=[/Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq]
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.18.1:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.18.1:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar Scope: compile
+[DEBUG] Using JVM: /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/bin/java
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit4:jar:2.18.1:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.18.1:test (selected for test)
+[DEBUG] Adding to surefire test classpath: /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar Scope: test
+[DEBUG] Adding to surefire test classpath: /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar Scope: test
+[DEBUG] test classpath:  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar  /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar  /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar  /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar  /Users/jnajdi/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar  /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar  /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar  /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar  /Users/jnajdi/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar  /Users/jnajdi/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar  /Users/jnajdi/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar  /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar  /Users/jnajdi/.m2/repository/junit/junit/4.12/junit-4.12.jar  /Users/jnajdi/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar  /Users/jnajdi/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar  /Users/jnajdi/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar  /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar  /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar  /Users/jnajdi/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar  /Users/jnajdi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar
+[DEBUG] provider classpath:  /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar  /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  spring-boot-starter-amqp-1.5.2.RELEASE.jar  spring-boot-starter-1.5.2.RELEASE.jar  spring-boot-1.5.2.RELEASE.jar  spring-boot-autoconfigure-1.5.2.RELEASE.jar  spring-boot-starter-logging-1.5.2.RELEASE.jar  logback-classic-1.1.11.jar  logback-core-1.1.11.jar  jcl-over-slf4j-1.7.24.jar  jul-to-slf4j-1.7.24.jar  log4j-over-slf4j-1.7.24.jar  snakeyaml-1.17.jar  spring-messaging-4.3.7.RELEASE.jar  spring-beans-4.3.7.RELEASE.jar  spring-context-4.3.7.RELEASE.jar  spring-aop-4.3.7.RELEASE.jar  spring-expression-4.3.7.RELEASE.jar  spring-rabbit-1.7.1.RELEASE.jar  spring-web-4.3.7.RELEASE.jar  spring-amqp-1.7.1.RELEASE.jar  http-client-1.1.1.RELEASE.jar  httpclient-4.5.3.jar  httpcore-4.4.6.jar  commons-codec-1.10.jar  jackson-databind-2.8.7.jar  jackson-annotations-2.8.0.jar  jackson-core-2.8.7.jar  amqp-client-4.0.2.jar  spring-tx-4.3.7.RELEASE.jar  spring-retry-1.2.0.RELEASE.jar  spring-boot-starter-test-1.5.2.RELEASE.jar  spring-boot-test-1.5.2.RELEASE.jar  spring-boot-test-autoconfigure-1.5.2.RELEASE.jar  json-path-2.2.0.jar  json-smart-2.2.1.jar  accessors-smart-1.1.jar  asm-5.0.3.jar  slf4j-api-1.7.24.jar  junit-4.12.jar  assertj-core-2.6.0.jar  mockito-core-1.10.19.jar  objenesis-2.1.jar  hamcrest-core-1.3.jar  hamcrest-library-1.3.jar  jsonassert-1.4.0.jar  android-json-0.0.20131108.vaadin1.jar  spring-core-4.3.7.RELEASE.jar  spring-test-4.3.7.RELEASE.jar
+[DEBUG] provider(compact) classpath:  surefire-junit4-2.18.1.jar  surefire-api-2.18.1.jar
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+[DEBUG] boot classpath:  /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar  /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/test-classes  /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/1.5.2.RELEASE/spring-boot-starter-amqp-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar  /Users/jnajdi/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar  /Users/jnajdi/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar  /Users/jnajdi/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar  /Users/jnajdi/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar  /Users/jnajdi/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-messaging/4.3.7.RELEASE/spring-messaging-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.1.RELEASE/spring-rabbit-1.7.1.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/amqp/spring-amqp/1.7.1.RELEASE/spring-amqp-1.7.1.RELEASE.jar  /Users/jnajdi/.m2/repository/com/rabbitmq/http-client/1.1.1.RELEASE/http-client-1.1.1.RELEASE.jar  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar  /Users/jnajdi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar  /Users/jnajdi/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar  /Users/jnajdi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar  /Users/jnajdi/.m2/repository/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/retry/spring-retry/1.2.0.RELEASE/spring-retry-1.2.0.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar  /Users/jnajdi/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar  /Users/jnajdi/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar  /Users/jnajdi/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar  /Users/jnajdi/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar  /Users/jnajdi/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar  /Users/jnajdi/.m2/repository/junit/junit/4.12/junit-4.12.jar  /Users/jnajdi/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar  /Users/jnajdi/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar  /Users/jnajdi/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar  /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar  /Users/jnajdi/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar  /Users/jnajdi/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar  /Users/jnajdi/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar  /Users/jnajdi/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-2.18.1.jar  surefire-api-2.18.1.jar  test-classes  classes  spring-boot-starter-amqp-1.5.2.RELEASE.jar  spring-boot-starter-1.5.2.RELEASE.jar  spring-boot-1.5.2.RELEASE.jar  spring-boot-autoconfigure-1.5.2.RELEASE.jar  spring-boot-starter-logging-1.5.2.RELEASE.jar  logback-classic-1.1.11.jar  logback-core-1.1.11.jar  jcl-over-slf4j-1.7.24.jar  jul-to-slf4j-1.7.24.jar  log4j-over-slf4j-1.7.24.jar  snakeyaml-1.17.jar  spring-messaging-4.3.7.RELEASE.jar  spring-beans-4.3.7.RELEASE.jar  spring-context-4.3.7.RELEASE.jar  spring-aop-4.3.7.RELEASE.jar  spring-expression-4.3.7.RELEASE.jar  spring-rabbit-1.7.1.RELEASE.jar  spring-web-4.3.7.RELEASE.jar  spring-amqp-1.7.1.RELEASE.jar  http-client-1.1.1.RELEASE.jar  httpclient-4.5.3.jar  httpcore-4.4.6.jar  commons-codec-1.10.jar  jackson-databind-2.8.7.jar  jackson-annotations-2.8.0.jar  jackson-core-2.8.7.jar  amqp-client-4.0.2.jar  spring-tx-4.3.7.RELEASE.jar  spring-retry-1.2.0.RELEASE.jar  spring-boot-starter-test-1.5.2.RELEASE.jar  spring-boot-test-1.5.2.RELEASE.jar  spring-boot-test-autoconfigure-1.5.2.RELEASE.jar  json-path-2.2.0.jar  json-smart-2.2.1.jar  accessors-smart-1.1.jar  asm-5.0.3.jar  slf4j-api-1.7.24.jar  junit-4.12.jar  assertj-core-2.6.0.jar  mockito-core-1.10.19.jar  objenesis-2.1.jar  hamcrest-core-1.3.jar  hamcrest-library-1.3.jar  jsonassert-1.4.0.jar  android-json-0.0.20131108.vaadin1.jar  spring-core-4.3.7.RELEASE.jar  spring-test-4.3.7.RELEASE.jar  surefire-junit4-2.18.1.jar
+Forking command line: /bin/sh -c cd /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq && /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/bin/java -jar /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/surefire/surefirebooter6732695444065181946.jar /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/surefire/surefire4647432333480739140tmp /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/surefire/surefire_06596585969497022192tmp
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=94, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3, ConflictResolver.conflictItemCount=86, DefaultDependencyCollector.collectTime=41, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.6:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:runtime
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.4:compile
+[DEBUG]          commons-io:commons-io:jar:2.2:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.6
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.6:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.6:jar' with basic configurator -->
+[DEBUG]   (s) addDefaultImplementationEntries = true
+[DEBUG]   (s) manifest = org.apache.maven.archiver.ManifestConfiguration@6f1a80fb
+[DEBUG]   (f) archive = org.apache.maven.archiver.MavenArchiveConfiguration@5a237731
+[DEBUG]   (f) classesDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes
+[DEBUG]   (f) defaultManifestFile = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/classes/META-INF/MANIFEST.MF
+[DEBUG]   (f) finalName = jn-messaging-amqp-rabbitmq-0.0.1-SNAPSHOT
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target
+[DEBUG]   (f) project = MavenProject: jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:0.0.1-SNAPSHOT @ /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@200a26bc
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Destination /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/jn-messaging-amqp-rabbitmq-0.0.1-SNAPSHOT.jar not found.)
+[INFO] Building jar: /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target/jn-messaging-amqp-rabbitmq-0.0.1-SNAPSHOT.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory jnajdi/
+[DEBUG] adding directory jnajdi/sandbox/
+[DEBUG] adding directory jnajdi/sandbox/example/
+[DEBUG] adding directory jnajdi/sandbox/example/component/
+[DEBUG] adding entry application.properties
+[DEBUG] adding entry jnajdi/sandbox/example/Application.class
+[DEBUG] adding entry jnajdi/sandbox/example/component/Receiver.class
+[DEBUG] adding entry jnajdi/sandbox/example/Runner.class
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/jnajdi.sandbox.example/
+[DEBUG] adding directory META-INF/maven/jnajdi.sandbox.example/jn-messaging-amqp-rabbitmq/
+[DEBUG] adding entry META-INF/maven/jnajdi.sandbox.example/jn-messaging-amqp-rabbitmq/pom.xml
+[DEBUG] adding entry META-INF/maven/jnajdi.sandbox.example/jn-messaging-amqp-rabbitmq/pom.properties
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.2.RELEASE:repackage (default) @ jn-messaging-amqp-rabbitmq ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=273, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=67, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=161, DefaultDependencyCollector.collectTime=143, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.springframework.boot:spring-boot-maven-plugin:jar:1.5.2.RELEASE:
+[DEBUG]    org.springframework.boot:spring-boot-loader-tools:jar:1.5.2.RELEASE:compile
+[DEBUG]       org.springframework:spring-core:jar:4.3.7.RELEASE:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.6:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.1.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.1.1:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.1.1:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.1.1:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.2.1:compile
+[DEBUG]          org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+[DEBUG]       org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+[DEBUG]       org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M5:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:compile
+[DEBUG]          org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[DEBUG]             aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.5.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.1.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.1.1:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:3.1.1:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.8:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0.8:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.8:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.8:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]          org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]             log4j:log4j:jar:1.2.17:compile
+[DEBUG]             commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]          com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]          junit:junit:jar:4.12:compile
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.8.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.3.2:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    org.apache.maven.plugins:maven-shade-plugin:jar:2.2:compile
+[DEBUG]       org.apache.maven:maven-compat:jar:3.0:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]                org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[DEBUG]       asm:asm:jar:3.3.1:compile
+[DEBUG]       asm:asm-commons:jar:3.3.1:compile
+[DEBUG]          asm:asm-tree:jar:3.3.1:compile
+[DEBUG]       org.jdom:jdom:jar:1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:2.1:compile
+[DEBUG]       org.vafer:jdependency:jar:0.7:compile
+[DEBUG]          commons-io:commons-io:jar:1.3.2:compile
+[DEBUG]          asm:asm-analysis:jar:3.2:compile
+[DEBUG]          asm:asm-util:jar:3.2:compile
+[DEBUG]       com.google.guava:guava:jar:18.0:compile
+[DEBUG] Created new class realm plugin>org.springframework.boot:spring-boot-maven-plugin:1.5.2.RELEASE
+[DEBUG] Importing foreign packages into class realm plugin>org.springframework.boot:spring-boot-maven-plugin:1.5.2.RELEASE
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.springframework.boot:spring-boot-maven-plugin:1.5.2.RELEASE
+[DEBUG]   Included: org.springframework.boot:spring-boot-maven-plugin:jar:1.5.2.RELEASE
+[DEBUG]   Included: org.springframework.boot:spring-boot-loader-tools:jar:1.5.2.RELEASE
+[DEBUG]   Included: org.springframework:spring-core:jar:4.3.7.RELEASE
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.21
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:1.0.2.v20150114
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: javax.annotation:jsr250-api:jar:1.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.17
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.3.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.apache.maven.plugins:maven-shade-plugin:jar:2.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: asm:asm-commons:jar:3.3.1
+[DEBUG]   Included: asm:asm-tree:jar:3.3.1
+[DEBUG]   Included: org.jdom:jdom:jar:1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.1
+[DEBUG]   Included: org.vafer:jdependency:jar:0.7
+[DEBUG]   Included: commons-io:commons-io:jar:1.3.2
+[DEBUG]   Included: asm:asm-analysis:jar:3.2
+[DEBUG]   Included: asm:asm-util:jar:3.2
+[DEBUG]   Included: com.google.guava:guava:jar:18.0
+[DEBUG] Configuring mojo org.springframework.boot:spring-boot-maven-plugin:1.5.2.RELEASE:repackage from plugin realm ClassRealm[plugin>org.springframework.boot:spring-boot-maven-plugin:1.5.2.RELEASE, parent: sun.misc.Launcher$AppClassLoader@2503dbd3]
+[DEBUG] Configuring mojo 'org.springframework.boot:spring-boot-maven-plugin:1.5.2.RELEASE:repackage' with basic configurator -->
+[DEBUG]   (f) attach = true
+[DEBUG]   (f) excludeDevtools = true
+[DEBUG]   (f) executable = false
+[DEBUG]   (f) finalName = jn-messaging-amqp-rabbitmq-0.0.1-SNAPSHOT
+[DEBUG]   (f) includeSystemScope = false
+[DEBUG]   (f) outputDirectory = /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/target
+[DEBUG]   (f) project = MavenProject: jnajdi.sandbox.example:jn-messaging-amqp-rabbitmq:0.0.1-SNAPSHOT @ /Users/jnajdi/Development/sandbox/github/jn-messaging-amqp-rabbitmq/pom.xml
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.648 s
+[INFO] Finished at: 2017-03-10T16:18:11-08:00
+[INFO] Final Memory: 30M/317M
+[INFO] ------------------------------------------------------------------------
